@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Создать событие:</h2>
+    <p>Название События</p>
+    <input id="nameInput" type="text" maxlength="30" />
+    <br />
+    <br />
+    <p>Описание События</p>
+
+    <textarea id="descInput" rows="5" cols="100"></textarea>
+
+    <br />
+    <br />
+    <p>Контакт Организатора События</p>
+
+    <input id="contactInput" type="text" maxlength="8" />
+
+    <br />
+    <br />
+    <p>Приложить Изображение:</p>
+    <input type="file" id="inputImage" name="photo" accept="image/*" />
+    <br />
+    <br />
+    <canvas id="loadInCanvas" class="displayLoadCanvas"></canvas>
+    <br />
+    <br />
+    <button class="submitCreation" onclick="checkCreationData()">
+      Подтвердить.
+    </button>
+    <p id="errorMessager"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

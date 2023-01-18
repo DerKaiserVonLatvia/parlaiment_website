@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(99, 99, 211);
+}
+
+
+textarea {
+    resize: none;
+  }
+
+div.listObject{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+div.interactivePart{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 5%;
+}
+
+p{
+    background-color: aqua;
+}
+
+
+div.descContents{
+    display:inline;
+    margin: 0px;
+}
+
+img.describingImage{
+    height: 20%;
+}
+
+nav.topNav{
+    background-color: black;
+    height: 5%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 50px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    top:0
+}
+
+
+button.numberReveal{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(122, 122, 122);
+}
+button.numberReveal:hover{
+    color: rgb(255, 255, 255);
+}
+
+button.filterButton{
+
+    height: 100%;
+    background-color: rgb(21, 21, 112);
+}
+button.filterButton:hover{
+    background-color:rgb(18, 18, 77); ;
+}
+
+button.createItemButton{
+    
+    height: 100%;
+    background-color: rgb(15, 65, 19);
+}
+button.createItemButton:hover{
+    background-color:rgb(10, 37, 12);
+}
+
+button.deleteButton{
+    background-color: transparent;
+    color: crimson;
+    border-color: royalblue;
+    border-style:solid;
+}
+
+button.favButton{
+    background-color: transparent;
+    border-color: aliceblue;
+    border-style: solid;
+    color: green;
+}
+
+h2{
+    color: azure;
+}
+
+input{
+    background-color: rgb(165, 22, 22);
+    border-style: none;
+    width: 20%;
+    height: 5%;
+    font-size: 150%;
+
+}
+textarea{
+    background-color: darkgray;
+}
+
